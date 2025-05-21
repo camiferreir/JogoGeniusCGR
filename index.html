@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Genius Game</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="background"></div>
+
+  <!-- Tela Inicial -->
+  <div class="tela-inicial" id="tela-inicial">
+    <h1 class="title">🧠 Jogo Genius</h1>
+    <p>Repita a sequência de cores. Complete 20 níveis para vencer!</p>
+    <button id="btn-iniciar">Iniciar Jogo</button>
+    <button id="btn-tema">🌙 Tema Escuro/Claro</button>
+  </div>
+
+  <!-- Tela do Jogo -->
+  <div class="tela-jogo" id="tela-jogo" style="display: none;">
+    <div class="tabuleiro">
+      <div class="botao verde" id="verde" data-cor="verde"></div>
+      <div class="botao vermelho" id="vermelho" data-cor="vermelho"></div>
+      <div class="botao amarelo" id="amarelo" data-cor="amarelo"></div>
+      <div class="botao azul" id="azul" data-cor="azul"></div>
+    </div>
+    <div class="painel">
+      <h2 id="nivel">Nível: 1</h2>
+      <p id="mensagem" class="mensagem"></p>
+      <p id="recorde">Recorde: 0</p>
+      <button id="btn-voltar">Voltar ao Início</button>
+      <button id="btn-som">🔊 Som</button>
+    </div>
+  </div>
+
+  <!-- Confete -->
+  <canvas id="confetti-canvas"></canvas>
+
+  <audio id="click-sound" src="assets/click.mp3" preload="auto"></audio>
+
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
