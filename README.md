@@ -20,7 +20,7 @@
 
 Você pode visualizar o jogo online através do GitHub Pages:
 
-🔗 [Clique aqui para jogar]((https://camiferreir.github.io/JogoGeniusCGR/))
+🔗 [Clique aqui para jogar]([(https://camiferreir.github.io/JogoGeniusCGR/)])
 
 Ou, para rodar localmente:
 
