@@ -33,7 +33,7 @@ Ou, para rodar localmente:
 
 ## 👨‍💻 Autor
 
-**Nome do Aluno**  
+**Camille, Gabriely e Rafaela**  
 Projeto desenvolvido para a disciplina de **Programação Web 1 – Curso Técnico em Informática**.
 
 ---
